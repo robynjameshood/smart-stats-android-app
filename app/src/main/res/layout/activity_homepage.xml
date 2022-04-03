@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Homepage">
+
+    <Button
+        android:onClick="onClick"
+        android:id="@+id/yellow_cards_stats_button"
+        android:layout_width="248dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="388dp"
+        android:text="@string/yellow_card_stats"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UsingOnClickInXml" />
+
+    <Button
+        android:onClick="onClick"
+        android:id="@+id/top_goalscorers_button"
+        android:layout_width="248dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="316dp"
+        android:text="@string/top_goalscorers"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UsingOnClickInXml" />
+
+    <Button
+        android:onClick="onClick"
+        android:id="@+id/button3"
+        android:layout_width="248dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="160dp"
+        android:text="@string/inplay_matches_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UsingOnClickInXml" />
+
+    <TextView
+        android:id="@+id/userTag"
+        android:layout_width="99dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="16dp"
+        android:paddingVertical="5dp"
+        android:text="Logged in: "
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.01"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:onClick="onClick"
+        android:id="@+id/upcomingMatchesButton"
+        android:layout_width="248dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="240dp"
+        android:text="@string/upcoming_matches_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UsingOnClickInXml" />
+
+    <TextView
+        android:id="@+id/userDisplayText"
+        android:layout_width="153dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="16dp"
+        android:paddingVertical="5dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/userTag"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

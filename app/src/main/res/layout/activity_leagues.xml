@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Homepage">
+
+    <Button
+        android:onClick="leagueSelect"
+        android:id="@+id/bundesliga_button"
+        android:layout_width="248dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="532dp"
+        android:text="@string/bundesliga_inplay_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:onClick="leagueSelect"
+        android:id="@+id/ligue_one_button"
+        android:layout_width="248dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="388dp"
+        android:text="@string/serie_a_inplay_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:onClick="leagueSelect"
+        android:id="@+id/button4"
+        android:layout_width="248dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="316dp"
+        android:text="@string/ligue_one_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:onClick="leagueSelect"
+        android:id="@+id/premiership_button"
+        android:layout_width="248dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="160dp"
+        android:text="@string/premiership_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="OnClick" />
+
+    <TextView
+        android:id="@+id/userTag"
+        android:layout_width="120dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="4dp"
+        android:paddingVertical="5dp"
+        android:text="Logged in: "
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.01"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:onClick="leagueSelect"
+        android:id="@+id/championship_button"
+        android:layout_width="248dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="240dp"
+        android:text="@string/championship_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:onClick="leagueSelect"
+        android:id="@+id/button7"
+        android:layout_width="248dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="460dp"
+        android:text="@string/la_lige_inplay_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="OnClick" />
+
+    <TextView
+        android:id="@+id/leagues_title_display"
+        android:layout_width="178dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="84dp"
+        android:paddingVertical="5dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

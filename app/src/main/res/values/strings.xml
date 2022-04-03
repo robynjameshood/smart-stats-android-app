@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Smart-stats</string>
+    <string name="input_email_placeholder_text">Email</string>
+    <string name="input_password_placeholder_text">Password</string>
+    <string name="inplay_matches_button">Inplay Matches</string>
+    <string name="upcoming_matches_button">Upcoming Matches</string>
+    <string name="top_goalscorers">Top Goalscorers</string>
+    <string name="yellow_card_stats">Yellow Card Stats</string>
+    <string name="bundesliga_inplay_button">Bundesliga</string>
+    <string name="serie_a_inplay_button">Serie A</string>
+    <string name="ligue_one_button">Ligue One</string>
+    <string name="premiership_button">Premiership</string>
+    <string name="championship_button">Championship</string>
+    <string name="la_lige_inplay_button">LaLiga</string>
+</resources>

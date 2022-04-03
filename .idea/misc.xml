@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/R_Bla/AndroidStudioProjects/Smartstats2/app/src/main/res/layout/activity_homepage.xml" value="0.33" />
+        <entry key="..\:/Users/R_Bla/AndroidStudioProjects/Smartstats2/app/src/main/res/layout/activity_inplay_leagues.xml" value="0.22441742654508612" />
+        <entry key="..\:/Users/R_Bla/AndroidStudioProjects/Smartstats2/app/src/main/res/layout/activity_inplay_matches_screen.xml" value="0.19112627986348124" />
+        <entry key="..\:/Users/R_Bla/AndroidStudioProjects/Smartstats2/app/src/main/res/layout/activity_leagues.xml" value="0.3120471014492754" />
+        <entry key="..\:/Users/R_Bla/AndroidStudioProjects/Smartstats2/app/src/main/res/layout/activity_listview_center.xml" value="0.2658514492753623" />
+        <entry key="..\:/Users/R_Bla/AndroidStudioProjects/Smartstats2/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/R_Bla/AndroidStudioProjects/Smartstats2/app/src/main/res/layout/activity_registration.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/R_Bla/AndroidStudioProjects/Smartstats2/app/src/main/res/layout/activity_top_goalscorers_screen.xml" value="0.2658514492753623" />
+        <entry key="..\:/Users/R_Bla/AndroidStudioProjects/Smartstats2/app/src/main/res/layout/activity_upcoming_matches.xml" value="0.34375" />
+        <entry key="..\:/Users/R_Bla/AndroidStudioProjects/Smartstats2/app/src/main/res/layout/activity_upcoming_matches_screen.xml" value="0.22509057971014493" />
+        <entry key="..\:/Users/R_Bla/AndroidStudioProjects/Smartstats2/app/src/main/res/layout/activity_yellow_card_stats_screen.xml" value="0.21510416666666668" />
+        <entry key="..\:/Users/R_Bla/AndroidStudioProjects/Smartstats2/app/src/main/res/layout/new_listview.xml" value="0.26666666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
